@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Curacao</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="container-flex">
+            <span> Llama gratis: 800-CURACAO</span>
+            <span>Encuentra tu tienda</span>
+            <span>Envío gratis en compras > $50</span>
+        </div>
+    </div>
+
+    <header class="header">
+        <h1 class="logo">La Curacao</h1>
+        <div class="search-box">
+            <input type="text" placeholder="¿Qué estás buscando?">
+            <button>🔍</button>
+        </div>
+        <button class="btn-cart"> Carrito <span class="cart-count">3</span></button>
+    </header>
+
+    <nav class="nav">
+        <a href="#">Electrodomésticos</a>
+        <a href="#">Tecnología</a>
+        <a href="#">Muebles</a>
+        <a href="#">Celulares</a>
+        <a href="#">Ofertas</a>
+    </nav>
+
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-left">
+                <span class="badge-promo">OFERTA ESPECIAL</span>
+                <h2>¡MEGA DESCUENTOS!</h2>
+                <p>Hasta <strong>50% OFF</strong> en Electrodomésticos</p>
+                <ul class="hero-list">
+                    <li>Sin cuota inicial</li>
+                    <li>Hasta 24 meses sin intereses</li>
+                    <li>Aprobación inmediata</li>
+                </ul>
+                <div class="hero-buttons">
+                    <button class="btn-yellow">Ver ofertas</button>
+                    <button class="btn-outline">Solicitar crédito</button>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="offer-card">
+                    <h3>¡SOLO HOY!</h3>
+                    <div class="big-percent">50%</div>
+                    <p>DESCUENTO</p>
+                    <div class="countdown" id="timer">
+                        <div><span id="hours">12</span><p>Hrs</p></div>
+                        <div><span id="minutes">34</span><p>Min</p></div>
+                        <div><span id="seconds">56</span><p>Seg</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories container">
+        <h2 class="section-title">Categorías Destacadas</h2>
+        <div class="category-grid">
+            <div class="cat-item"><div class="cat-icon">📱</div><p>Celulares</p></div>
+            <div class="cat-item"><div class="cat-icon"></div><p>Laptops</p></div>
+            <div class="cat-item"><div class="cat-icon"></div><p>Muebles</p></div>
+            <div class="cat-item"><div class="cat-icon"></div><p>TVs</p></div>
+            <div class="cat-item"><div class="cat-icon"></div><p>Audio</p></div>
+            <div class="cat-item"><div class="cat-icon"></div><p>Ofertas</p></div>
+        </div>
+    </section>
+
+    <section class="products-section">
+        <div class="container">
+            <h2 class="section-title">Productos Destacados</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <span class="discount-tag">-30%</span>
+                    <img src="https://via.placeholder.com/200" alt="Producto">
+                    <div class="stars"> <span>(324)</span></div>
+                    <h3>Smart TV 55" 4K UHD</h3>
+                    <p class="price-old">$799.99</p>
+                    <p class="price-new">$549.99</p>
+                    <button class="btn-add">Agregar al carrito</button>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section class="flash-deals">
+        <div class="container">
+            <span class="badge-flash">OFERTAS RELÁMPAGO</span>
+            <h2 class="white-text">Ofertas del Día</h2>
+            <div class="main-timer">
+                <div class="timer-box"><span>08</span><p>Horas</p></div>
+                <div class="timer-box"><span>24</span><p>Minutos</p></div>
+                <div class="timer-box"><span>15</span><p>Segundos</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="financing-banner">
+        <div class="container financing-grid">
+            <div class="financing-left">
+                <span class="badge-white">CRÉDITO FÁCIL</span>
+                <h2>Financia tus compras</h2>
+                <div class="financing-stats">
+                    <div class="stat-box"><strong>0%</strong><p>Interés</p></div>
+                    <div class="stat-box"><strong>24</strong><p>Meses</p></div>
+                </div>
+                <button class="btn-dark-blue">Solicitar crédito ahora</button>
+            </div>
+            <div class="financing-right">
+                <div class="benefits-card">
+                    <h3>Beneficios de nuestro crédito</h3>
+                    <ul>
+                        <li>Aprobación en 5 minutos</li>
+                        <li>Sin cuota inicial</li>
+                        <li>Plazos flexibles</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="white-text">Lo que dicen nuestros clientes</h2>
+            <div class="testimonial-grid">
+                <div class="test-card">
+                    <div class="stars"> </div>
+                    <p>"Excelente servicio y el crédito fue aprobado al instante."</p>
+                    <div class="user-info">
+                        <div class="avatar">MG</div>
+                        <strong>María González</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-top">
+            <div class="footer-col">
+                <h3>La Curacao</h3>
+                <p>Tu tienda de confianza con más de 20 años de experiencia.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Ayuda</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Garantías</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 La Curacao. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
